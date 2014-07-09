@@ -1,0 +1,28 @@
+{
+    "template": "grdests*",
+    "mappings": {
+        "doc": {
+            "properties": {
+                "grdests": {
+                    "type": "string",
+                    "store": true,
+                    "index": "not_analyzed"
+                },
+                "id": {
+                    "type": "string"
+                },
+                "path": {
+                    "type": "string"
+                },
+                "source": {
+                    "type": "string",
+                    "store": true,
+                    "index": "not_analyzed"
+                },
+                "title": {
+                    "type": "string"
+                }
+            }
+        }
+    }
+}
