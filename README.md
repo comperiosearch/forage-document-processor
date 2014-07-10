@@ -1,7 +1,10 @@
 forage-document-processor
 =========================
+A somewhat  modified fork of the forage-document-processor.
+Supports handling directories recursively. 
+adapter-simple.js analyses documents and  stores link info into elasticsearch. 
+adapter-linkage.js reads documents and fetches info from elasticseaarch and modifies links. 
 
-A library for parsing HTML into any sort of JSON you want
 
 ```
   Usage: forage-document-processor [options]
