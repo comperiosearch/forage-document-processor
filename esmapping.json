@@ -22,6 +22,10 @@
                 "title": {
                     "type": "string"
                 }
+                "body": {
+                    "type": "nested",
+                       "include_in_parent": true
+                }
             }
         }
     }
